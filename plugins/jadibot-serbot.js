@@ -249,10 +249,10 @@ export async function blackJadiBot(options) {
       }
     }, 60000)
 
-    let handler = await import('../núcleo•clover/handler.js')
+    let handler = await import('../nucleo-netpluse/handler.js')
     let creloadHandler = async function (restatConn) {
       try {
-        const Handler = await import(`../núcleo•clover/handler.js?update=${Date.now()}`).catch(console.error)
+        const Handler = await import(`../nucleo-netpluse/handler.js?update=${Date.now()}`).catch(console.error)
         if (Object.keys(Handler || {}).length) handler = Handler
       } catch (e) { }
       if (restatConn) {
