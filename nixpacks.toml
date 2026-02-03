@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs-18", "git"]
+
+[phases.install]
+cmds = [
+  "git config --global url.'https://github.com/'.insteadOf 'ssh://git@github.com/'",
+  "npm install"
+]
+
+[start]
+cmd = "npm start"
