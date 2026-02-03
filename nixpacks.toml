@@ -1,10 +1,13 @@
 [phases.setup]
-nixPkgs = ["nodejs-18", "git"]
+nixPkgs = ["nodejs-18", "git", "gnused"]
 
 [phases.install]
 cmds = [
+  "echo 'Iniciando reparación de protocolos Git...'",
   "git config --global url.'https://github.com/'.insteadOf 'ssh://git@github.com/'",
-  "npm install"
+  "find . -name 'yarn.lock' -exec sed -i 's/ssh:\\/\\/git@github.com\\//https:\\/\\/github.com\\//g' {} +",
+  "find . -name 'package-lock.json' -exec sed -i 's/ssh:\\/\\/git@github.com\\//https:\\/\\/github.com\\//g' {} +",
+  "yarn install --frozen-lockfile || npm install"
 ]
 
 [start]
