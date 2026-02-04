@@ -109,6 +109,6 @@ global.maxwarn = 3;
 const file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
   unwatchFile(file);
-  console.log(chalk.redBright('Update \'núcleo•clover/config.js\''));
+  console.log(chalk.redBright('Update \'núcleo-netpluse/config.js\''));
   import(`${file}?update=${Date.now()}`);
 });
