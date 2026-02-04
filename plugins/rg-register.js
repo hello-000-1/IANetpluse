@@ -131,8 +131,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     },
     externalAdReply: {
       showAdAttribution: false,
-      title: `📜 registro clover`,
-      body: `✡︎ Black-clover-MD • Elvis`,
+      title: `📜 registro de Usuarios`,
+      body: `✡︎ IA-NetPluse-Bot • Elvis`,
       mediaType: 2,
       sourceUrl: global.redes || '',
       thumbnail: global.icons || thumbnailBuffer
