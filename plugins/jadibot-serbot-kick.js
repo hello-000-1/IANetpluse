@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
     return conn.reply(m.chat, '⚠️ Este comando solo puede usarlo el *Owner*.', m)
   }
 
-  const baseDir = path.join(__dirname, 'núcleo•clover', 'blackJadiBot')
+  const baseDir = path.join(__dirname, 'nucleo-netpluse', 'blackJadiBot')
   if (!fs.existsSync(baseDir)) {
     return conn.reply(m.chat, '📂 No se encontró la carpeta *blackJadiBot*.', m)
   }

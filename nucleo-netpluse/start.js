@@ -303,7 +303,7 @@ global.reloadHandler = async function(restatConn) {
 };
 
 
-global.rutaJadiBot = join(__dirname, '../núcleo•clover/blackJadiBot')
+global.rutaJadiBot = join(__dirname, '../nucleo-netpluse/blackJadiBot')
 
 if (global.blackJadibts) {
     if (!existsSync(global.rutaJadiBot)) {

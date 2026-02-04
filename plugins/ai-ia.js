@@ -1,6 +1,6 @@
 import axios from 'axios'
 import fetch from 'node-fetch'
-import '../núcleo•clover/config.js'
+import '../nucleo-netpluse/config.js'
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   const ownerName = global.owner[0][1]

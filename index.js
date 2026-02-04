@@ -35,7 +35,7 @@ async function barraCargaCyberpunk() {
   console.log()
 }
 
-async function animacionnClover() {
+async function animacionNetpluse() {
   const frames = [
 chalk.hex('#555555')(`
  ╭━┳━╭━╭━╮╮
@@ -90,19 +90,19 @@ chalk.hex('#FF00FF')(`
   }
 }
 
-async function iniciarBlackClover() {
+async function iniciarNetpluse() {
   console.clear()
 
   console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | ASTA-BOT V.777 ⟧'))
   console.log(chalk.gray('⌬ Canalizando acceso mágico...'))
   await new Promise(res => setTimeout(res, 600))
 
-  await animacionBlackClover()
+  await animacionNetpluse()
 
   await barraCargaCyberpunk()
   await new Promise(res => setTimeout(res, 500))
 
-  console.log(chalk.redBright('\n☰✦☰═☰  B  L  A  C  K    C  L  O  V  E  R  ☰═☰✦☰'))
+  console.log(chalk.redBright('\n☰✦☰═☰  N  E  T  P  L  U  S  E  ☰═☰✦☰'))
   await new Promise(res => setTimeout(res, 700))
 
   cfonts.say('El mejor Bot ', {
@@ -145,7 +145,7 @@ function start(file) {
 
 const archivoArranque = './.arranque-ok'
 if (!existsSync(archivoArranque)) {
-  await iniciarBlackClover()
+  await iniciarNetpluse()
   writeFileSync(archivoArranque, 'ELVIS_FINAL')
 }
 

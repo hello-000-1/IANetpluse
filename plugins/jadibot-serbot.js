@@ -88,7 +88,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   let id = `${who.split('@')[0]}`
-  let pathblackJadiBot = path.join(process.cwd(), 'núcleo•clover', 'blackJadiBot', id)
+  let pathblackJadiBot = path.join(process.cwd(), 'nucleo-netpluse', 'blackJadiBot', id)
 
   if (!fs.existsSync(pathblackJadiBot)) {
     fs.mkdirSync(pathblackJadiBot, { recursive: true })
@@ -234,7 +234,7 @@ export async function blackJadiBot(options) {
         sock.isInit = true
         global.conns.push(sock)
 
-        if (m?.chat) await conn.sendMessage(m.chat, { text: args[0] ? `@${m.sender.split('@')[0]}, ya estás conectado, leyendo mensajes entrantes...` : `@${m.sender.split('@')[0]}, *genial ya eres parte de nuestra familia black-clover Sub-Bots.*\n> Usa el comando .personalizar para personalizar tu bot y que quede a tu gusto XD `, mentions: [m.sender] }, { quoted: m })
+        if (m?.chat) await conn.sendMessage(m.chat, { text: args[0] ? `@${m.sender.split('@')[0]}, ya estás conectado, leyendo mensajes entrantes...` : `@${m.sender.split('@')[0]}, *genial ya eres parte de nuestra familia Netpluse Sub-Bots.*\n> Usa el comando .personalizar para personalizar tu bot y que quede a tu gusto XD `, mentions: [m.sender] }, { quoted: m })
       }
     }
 
