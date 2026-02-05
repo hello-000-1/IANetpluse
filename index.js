@@ -26,7 +26,7 @@ async function barraCargaCyberpunk() {
     '[⚡] Sincronizando con demonios...',
     '[🔥] Fusión de magia negra...',
     '[🌌] Apertura del Reino Oscuro...',
-    '[✅] ASTA-BOT 100% OPERATIVO.'
+    '[✅] Tiempo-ia 100% OPERATIVO.'
   ]
   for (let frame of frames) {
     process.stdout.write('\r' + chalk.cyanBright(frame))
