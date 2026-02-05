@@ -14,9 +14,9 @@ global.botNumber = ''; // Ejemplo: 525568138672
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 global.owner = [
   ['51928567606', 'Elvis', true],
-  ['5217971289909'],
-  ['5217971282613', '', false], // Espacios opcionales
-  ['573244278232', 'neji.x.s', true],
+  ['51939467706'],
+  ['', '', false], // Espacios opcionales
+  ['', 'neji.x.s', true],
   ['', '', false]
 ];
 global.mods = ['5215544876071'];
