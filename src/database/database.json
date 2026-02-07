@@ -120,7 +120,45 @@
       "money": null
     },
     "51939467706@s.whatsapp.net": {
-      "exp": 603,
+      "exp": 776,
+      "monedas": 10,
+      "joincount": 1,
+      "diamond": 3,
+      "lastadventure": 0,
+      "lastclaim": 0,
+      "health": 100,
+      "crime": 0,
+      "lastcofre": 0,
+      "lastdiamantes": 0,
+      "lastpago": 0,
+      "lastcode": 0,
+      "lastcodereg": 0,
+      "lastduel": 0,
+      "lastmining": 0,
+      "muto": false,
+      "premium": true,
+      "premiumTime": null,
+      "registered": false,
+      "genre": "",
+      "birth": "",
+      "marry": "",
+      "description": "",
+      "packstickers": null,
+      "name": "Netpluse",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "role": "𝗡𝗼𝘃𝗮𝘁𝗼 V 🍷",
+      "banned": false,
+      "useDocument": false,
+      "level": 0,
+      "bank": 0,
+      "warn": 0,
+      "money": 650
+    },
+    "639367440035@s.whatsapp.net": {
+      "exp": 53,
       "monedas": 10,
       "joincount": 1,
       "diamond": 3,
@@ -144,7 +182,7 @@
       "marry": "",
       "description": "",
       "packstickers": null,
-      "name": "Netpluse",
+      "name": "Elvis",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -155,7 +193,8 @@
       "level": 0,
       "bank": 0,
       "warn": 0,
-      "money": 500
+      "money": null,
+      "commands": 1
     }
   },
   "chats": {
@@ -278,6 +317,26 @@
       "antifake": false,
       "delete": false,
       "expired": 0
+    },
+    "639367440035@s.whatsapp.net": {
+      "isBanned": false,
+      "sAutoresponder": "",
+      "welcome": true,
+      "autolevelup": false,
+      "autoAceptar": true,
+      "autosticker": false,
+      "autoRechazar": true,
+      "autoresponder": false,
+      "detect": true,
+      "antiBot": true,
+      "antiBot2": true,
+      "modoadmin": false,
+      "antiLink": true,
+      "reaction": false,
+      "nsfw": false,
+      "antifake": false,
+      "delete": false,
+      "expired": 0
     }
   },
   "stats": {
@@ -316,6 +375,12 @@
       "success": 4,
       "last": 1770097908029,
       "lastSuccess": 1770097908029
+    },
+    "Buscandor•pinterest.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1770440552813,
+      "lastSuccess": 1770440552813
     }
   },
   "msgs": {},
