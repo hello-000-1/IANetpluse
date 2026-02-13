@@ -1,7 +1,7 @@
 {
   "users": {
     "51928567606@s.whatsapp.net": {
-      "exp": 1631,
+      "exp": 2158,
       "monedas": 10,
       "joincount": 1,
       "diamond": 3,
@@ -18,7 +18,7 @@
       "lastmining": 0,
       "muto": false,
       "premium": true,
-      "premiumTime": null,
+      "premiumTime": 0,
       "registered": true,
       "genre": "",
       "birth": "",
@@ -36,8 +36,8 @@
       "level": 0,
       "bank": 0,
       "warn": 0,
-      "money": 950,
-      "commands": 19,
+      "money": 1350,
+      "commands": 27,
       "followed": true,
       "country": "Heart",
       "afinidad": "💧 Agua",
@@ -120,7 +120,7 @@
       "money": null
     },
     "51939467706@s.whatsapp.net": {
-      "exp": 889,
+      "exp": 1325,
       "monedas": 10,
       "joincount": 1,
       "diamond": 3,
@@ -155,7 +155,8 @@
       "level": 0,
       "bank": 0,
       "warn": 0,
-      "money": 750
+      "money": 1150,
+      "commands": 3
     },
     "639367440035@s.whatsapp.net": {
       "exp": 53,
@@ -195,6 +196,44 @@
       "warn": 0,
       "money": null,
       "commands": 1
+    },
+    "218107633217561@s.whatsapp.net": {
+      "exp": 117,
+      "monedas": 10,
+      "joincount": 1,
+      "diamond": 3,
+      "lastadventure": 0,
+      "lastclaim": 0,
+      "health": 100,
+      "crime": 0,
+      "lastcofre": 0,
+      "lastdiamantes": 0,
+      "lastpago": 0,
+      "lastcode": 0,
+      "lastcodereg": 0,
+      "lastduel": 0,
+      "lastmining": 0,
+      "muto": false,
+      "premium": false,
+      "premiumTime": 0,
+      "registered": false,
+      "genre": "",
+      "birth": "",
+      "marry": "",
+      "description": "",
+      "packstickers": null,
+      "name": "Elvis",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "role": "𝗡𝗼𝘃𝗮𝘁𝗼 V 🍷",
+      "banned": false,
+      "useDocument": false,
+      "level": 0,
+      "bank": 0,
+      "warn": 0,
+      "money": 50
     }
   },
   "chats": {
@@ -337,6 +376,46 @@
       "antifake": false,
       "delete": false,
       "expired": 0
+    },
+    "218107633217561@s.whatsapp.net": {
+      "isBanned": false,
+      "sAutoresponder": "",
+      "welcome": true,
+      "autolevelup": false,
+      "autoAceptar": true,
+      "autosticker": false,
+      "autoRechazar": true,
+      "autoresponder": false,
+      "detect": true,
+      "antiBot": true,
+      "antiBot2": true,
+      "modoadmin": false,
+      "antiLink": true,
+      "reaction": false,
+      "nsfw": false,
+      "antifake": false,
+      "delete": false,
+      "expired": 0
+    },
+    "218107633217561@lid": {
+      "isBanned": false,
+      "sAutoresponder": "",
+      "welcome": true,
+      "autolevelup": false,
+      "autoAceptar": true,
+      "autosticker": false,
+      "autoRechazar": true,
+      "autoresponder": false,
+      "detect": true,
+      "antiBot": true,
+      "antiBot2": true,
+      "modoadmin": false,
+      "antiLink": true,
+      "reaction": false,
+      "nsfw": false,
+      "antifake": false,
+      "delete": false,
+      "expired": 0
     }
   },
   "stats": {
@@ -347,10 +426,10 @@
       "lastSuccess": 1770097297436
     },
     "bot-ping.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1770097626160,
-      "lastSuccess": 1770097626160
+      "total": 14,
+      "success": 14,
+      "last": 1771001773548,
+      "lastSuccess": 1771001773548
     },
     "rg-register.js": {
       "total": 3,
@@ -381,6 +460,24 @@
       "success": 1,
       "last": 1770440552813,
       "lastSuccess": 1770440552813
+    },
+    "ai-ia.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1770999741023,
+      "lastSuccess": 1770999741023
+    },
+    "Descargas-ytmp4.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1771000189909,
+      "lastSuccess": 1771000189909
+    },
+    "Descargas-yt.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1771001875624,
+      "lastSuccess": 1771001875624
     }
   },
   "msgs": {},
