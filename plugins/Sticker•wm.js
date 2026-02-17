@@ -27,7 +27,7 @@ let handler = async (m, { conn, text }) => {
                         isForwarded: false,
                         externalAdReply: {
                             showAdAttribution: false,
-                            title: `𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎`,
+                            title: `IANETPLUSE - Elvis SF ☘︎`,
                             body: `✡︎ Sticker By • Elvis`,
                             mediaType: 2,
                             sourceUrl: global.redes || '',

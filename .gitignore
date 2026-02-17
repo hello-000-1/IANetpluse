@@ -1,1 +1,5 @@
-node_modules
+# Sesión de Baileys
+blackSession/
+
+# Archivos de configuración local
+package-lock.js

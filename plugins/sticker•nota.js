@@ -43,7 +43,7 @@ let handler = async (m, { conn, text }) => {
   );
 
   let buffer = await image.getBufferAsync(Jimp.MIME_PNG);
-  let stiker = await sticker(buffer, false, '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗', 'Elvis 👑');
+  let stiker = await sticker(buffer, false, 'IANETPLUSE - Elvis SF', 'Elvis 👑');
 
   if (!stiker) return m.reply("❌ No se pudo generar el sticker.");
 
@@ -56,7 +56,7 @@ let handler = async (m, { conn, text }) => {
   if (imgFiles.length > 0) {
     contextInfo = {
       externalAdReply: {
-        title: '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 | nota 📝',
+        title: 'IANETPLUSE - Elvis SF | nota 📝',
         body: 'Dev • Elvis 👑',
         mediaType: 2,
         thumbnail: fs.readFileSync(path.join(imgFolder, imgFiles[0]))
